@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @AIOlaKam
+- 👋 Hi, I’m Ola Kamecka / @AIOlaKam
 - 👀 I’m interested in AI, ML, IT, computer science, programming
 - 🌱 I'm very passionate about working with data, databases, preparing analysis and problem solving
 - 💞️ I’m looking to collaborate on interesting projects or job
