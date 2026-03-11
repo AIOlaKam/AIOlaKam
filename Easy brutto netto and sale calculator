@@ -1,0 +1,21 @@
+#defined variables
+NettoPriceBlouse = 10
+NettoPriceDress = 20
+Tax = 22
+discount= 60
+calculatedTax = (1 + Tax /100)
+calculatedDiscount = (1 - discount /100)
+
+# Counting price after Tax - brutto prices
+BruttoPriceBlouse = NettoPriceBlouse * calculatedTax
+BruttoPriceDress = NettoPriceDress * calculatedTax
+# Counting price after discount
+DiscountedPriceBlouse = BruttoPriceBlouse * calculatedDiscount
+DiscountedPriceDress = BruttoPriceDress * calculatedDiscount
+
+print ("There are brutto prices")
+print ("Blouse brutto price:",BruttoPriceBlouse)
+print ("Dress brutto price:", BruttoPriceDress)
+print ("There are prices after discount")
+print ("Sale price blouse:",DiscountedPriceBlouse)
+print ("Sale price Dress:",DiscountedPriceDress)
