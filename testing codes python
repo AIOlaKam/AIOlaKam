@@ -18,3 +18,18 @@ elif b > a:
     print ("a ist smaller than b")
 else:
     print ("a is equal b")
+
+------------------------------------------------------------------
+choose = int(input("1 - multiplication, 2 - divide, 3 - plus, 4 - minus"))
+
+a = int(input("select first number:"))
+b = int(input("select second number:"))
+
+if (choose == 1):
+    print ("multiplication a*b:", a * b)
+elif (choose == 2):
+    print ("divide a/b:", a / b)
+elif (choose == 3):
+    print ("a+b:",a + b) 
+else:
+    print ("a-b:",a - b)
