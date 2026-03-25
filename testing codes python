@@ -1,10 +1,20 @@
-print("Hej, jak masz na imie?")
+print("Hi, whats your name?")
 
-a = (input("Podaj swoje imie:"))
-print ("hejka", a)
-b = int(input("ile masz lat?"))
+a = (input("Give me your name:"))
+print ("Hiiii", a, "it's nice to meet you")
+b = int(input("How old are you?"))
 
-print(a, "za rok bedziesz miec", b+1, "lat")
+print(a, "in next year you will be", b+1, "years old")
 
 
 -----------------------------------------------------------------
+
+a = int(input("input a:"))
+b = int(input("input b:"))
+
+if a > b:
+    print ("a is bigger than b")
+elif b > a:
+    print ("a ist smaller than b")
+else:
+    print ("a is equal b")
