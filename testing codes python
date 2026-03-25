@@ -28,7 +28,10 @@ b = int(input("select second number:"))
 if (choose == 1):
     print ("multiplication a*b:", a * b)
 elif (choose == 2):
-    print ("divide a/b:", a / b)
+        if b == 0:
+            print ("please do not divide by 0")
+        else:
+            print ("divide a/b:", a / b)
 elif (choose == 3):
     print ("a+b:",a + b) 
 else:
