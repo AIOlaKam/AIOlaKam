@@ -36,3 +36,11 @@ elif (choose == 3):
     print ("a+b:",a + b) 
 else:
     print ("a-b:",a - b)
+
+-------------------------------------------------------------------
+x = int(input("give me number:"))
+
+if x < 0:
+     x = -x
+     
+print (x)
