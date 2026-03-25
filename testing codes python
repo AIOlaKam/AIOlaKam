@@ -1,0 +1,10 @@
+print("Hej, jak masz na imie?")
+
+a = (input("Podaj swoje imie:"))
+print ("hejka", a)
+b = int(input("ile masz lat?"))
+
+print(a, "za rok bedziesz miec", b+1, "lat")
+
+
+-----------------------------------------------------------------
