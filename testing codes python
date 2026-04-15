@@ -82,3 +82,17 @@ for i in range(5):
         continue
 print("The result:", w)
 
+----------------------------------------------------------------
+searchnumber = 56
+inputnumber = 0
+
+while searchnumber != inputnumber:
+    inputnumber = int(input("Please give me number:"))
+    
+    if searchnumber < inputnumber:
+        print ("too big...")
+    elif searchnumber > inputnumber:
+        print ("too small...")
+    else:
+        print ("Congrats!!!!!! You found the number")
+
