@@ -52,3 +52,14 @@ liczba = 150
 while liczba <=150 and liczba >=0:
     print(liczba)
     liczba -=1
+-------------------------------------------------------------------
+w = 0
+
+i = 0
+while i < 4:
+    x = int(input("Insert number:"))
+    w += x
+    i += 1
+    
+print("The result:", w)
+
