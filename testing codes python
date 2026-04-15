@@ -70,3 +70,15 @@ for i in range(5):
     w += x
   
 print("The result:", w)
+--------------------------------------------------------------------
+w = 0
+
+for i in range(5):
+    x = int(input("Insert positive number:"))
+    if (x > 0):
+        w += x
+    else:
+        print("This should be positive!")
+        continue
+print("The result:", w)
+
