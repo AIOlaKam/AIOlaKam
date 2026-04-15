@@ -63,3 +63,10 @@ while i < 4:
     
 print("The result:", w)
 
+--------------------------------------------------------------------
+w = 0
+for i in range(5):
+    x = int(input("Insert number:"))
+    w += x
+  
+print("The result:", w)
